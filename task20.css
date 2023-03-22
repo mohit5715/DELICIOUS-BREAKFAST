@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    padding: 20px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: large;
+
+}
+.list li{
+    padding: 0px 10px;
+} 
+.order button{
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+.background{
+    position: relative;
+    background-image:url(https://www.visitphilly.com/wp-content/uploads/2018/02/crtsy-cafe-lift-breakfast-lead-image-2200x1237.jpg) ;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    
+}
+.top {
+    position: absolute;
+    top: 160px;
+    right: 90px;
+    border: 10px solid white;
+    background-color: orangered;
+    color: white;
+    width: 500px;
+    font-size: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.top p {
+    padding-top: 10px;
+}
+.top button {
+    padding: 12px;
+    background-color: orangered;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+}
+.images img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 10px;
+    animation-name: change;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+
+}
+@keyframes change {
+    0%{
+        transform: rotate(-360deg);
+    }
+}
+.images {
+    display: flex;
+    justify-content: space-evenly;
+}
+.bann {
+    text-align: center;
+    padding: 40px 30rem;
+
+}
+.bann p{
+    padding-top: 20px;
+}
+.frist h1{
+    font-size: 20px;
+}
+.pizza img{
+    width: 100px;
+    height: 100px;
+    
+}
+.pizza2 img{
+    width: 100px;
+    height: 100px;
+    
+}
+.mainpizza{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.ho {
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    
+}
+.saladlist{
+    width: 500px;
+    
+}
+.saladlist2{
+    width: 500px;
+}
+.greensalad{
+    padding: 15px 0px;
+    border-bottom: 1px solid black;
+}
+.our {
+    background-color: bisque;
+    width: 620px;
+    padding: 26px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.discover {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+.our h3 {
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.our p{
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.our h1 {
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.our button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.health img {
+    width: 900px;
+}
+.meal{
+    background-image:url(https://www.news10.com/wp-content/uploads/sites/64/2022/10/Variety6.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.box {
+    width: 500px;
+    /* height: auto; */
+    /* color: white; */
+    background-color: bisque;
+    padding: 26px;
+    top: 20px; 
+    left: 120px;
+    border-radius: 20px;
+    position: absolute;
+}
+.box h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.box h4 {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.box p{
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.box button {
+    padding: 10px 20px;
+    border: 0;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: chocolate;
+}
+.blogs {
+    text-align: center;
+    padding: 25px 200px;
+    background-color: beige;
+}
+.blogs h1 {
+    padding-top: 30px;
+    font-family: sans-serif;
+}
+.blogs p {
+    padding-top: 30px;
+    font-size: larger;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+.mainlist {
+    display: flex;
+    /* padding: 30px; */
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.food img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.food h3 {
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: math;
+}
+.food p {
+    padding-top: 20px;
+}
+.food {
+    /* padding: 40px; */
+    width: 440px;
+}
+.gallery {
+    text-align: center;
+    /* margin-top: 40px; */
+    padding: 60px 200px;
+}
+.gallery p{
+    padding-top: 20px;
+}
+.galleryimg img {
+    width: 100%;
+    height: auto;
+}
+.shaf {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 40px 200px;
+}
+.shaf h1 {
+    font-family: sans-serif;
+}
+.shaf p {
+    padding-top: 20px;
+}
+.photo img{
+        width: 500px;
+}
+.photo{
+    background-color: rgb(241, 231, 231);
+}
+.chefid {
+    justify-content: center;
+    display: flex;
+    background-color: antiquewhite;
+    margin-top: 40px;
+    /* width: 80%; */
+    padding: 30px;
+}
+.id {
+    width: 60%;
+    padding: 50px;
+    /* margin: 50px; */
+    background-color: rgb(115, 211, 115);
+}
+.id p {
+    padding-top: 20px;
+}
+.id h4 {
+    padding-top: 10px;
+    color: blanchedalmond;
+}
+.details {
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+}
+.address {
+    width: 250px;
+    text-align: center;
+}
+.address h2{
+    padding-top: 10px;
+}
+.address p{
+    padding-top: 10px;
+}
+.address a {
+    font-size: 30px;
+}
+.table {
+    text-align: center;
+    color: white !important;
+    padding: 80px 250px;
+}
+.bottom {
+    background-image: url(https://img5.goodfon.com/wallpaper/nbig/f/75/pomidory-tomaty-kompozitsiia-chernyi-fon-temnyi-fon.jpg);
+    /* height: 550px; */
+    /* width: 100%; */
+    /* background-size: cover; */
+    object-fit: cover;
+}
+.table h1 {
+    font-family: cursive;
+}
+.table p {
+    padding: 15px 200px;
+    font-family: cursive;
+}
+.name input {
+    width: 400px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.an a {
+    text-decoration: none;
+    border: 3px solid white;
+    background-color: rgb(207, 182, 37);
+    padding: 10px 20px;
+    /* border-radius: 10px; */
+    color: white;
+}
+.an {
+    margin-top: 20px;
+}
+.last-logo {
+    background-color: rgb(82, 80, 80);
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    border-bottom: 1px solid white;
+}
+.last {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5px;
+    background-color: darkgray;
+}
+.Privacy a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.power p {
+    color: white;
+    font-size: 20px;
+}
+.icons a {
+    font-size: 20px;
+    padding: 0px 10px;
+    color: white;
+}
